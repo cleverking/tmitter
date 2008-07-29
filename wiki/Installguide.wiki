@@ -1,11 +1,11 @@
 #labels Phase-Support
   # 安装 [http://www.djangoproject.com/documentation/install Django]
   # 选择数据库，Sqlite3 或 PostgreSQL 或 MySQL
-    # Sqlite 安装说明
+    Sqlite 安装说明
       * 安装 [http://initd.org/tracker/pysqlite pysqlite]
       * 我们的源代码里面默认就带有Sqlite的数据库文件，在 *tmitter/db* 下面，请直接把 *tmitter.db* 删除掉。
 		
-    # PostgerSQL 安装说明	
+    PostgerSQL 安装说明	
       * 如果你使用 PostgreSQL 的话，请先安装 PostgreSQL 并创建数据库 tmitter 
       * 修改 settings.py 的数据库配置部分的用户名密码,请将下面一段替换相应的地方	
         {{{
@@ -18,7 +18,7 @@
         }}}
       * 安装 [http://initd.org/tracker/psycopg psycopg]
 		
-    # MySQL 安装说明
+    MySQL 安装说明
       * 下载安装 MySQL,并创建 tmitter 数据库，并修改 settings.py 把 DATABASE_ENGINE 的值改为 'mysql' 其它后面的 DATABASE相关的设置与 PostgreSQL的设置基本类似
       * 安装 [http://sourceforge.net/projects/mysql-python mysql-python]
 			
