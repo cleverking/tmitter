@@ -1,6 +1,6 @@
 #labels Phase-Support
-  # 安装 [http://www.djangoproject.com/documentation/install Django]
-  # 选择数据库，Sqlite3 或 PostgreSQL 或 MySQL
+  * 安装 [http://www.djangoproject.com/documentation/install Django]
+  * 选择数据库，Sqlite3 或 PostgreSQL 或 MySQL
   Sqlite 安装说明
       * 安装 [http://initd.org/tracker/pysqlite pysqlite]
       * 我们的源代码里面默认就带有Sqlite的数据库文件，在 *tmitter/db* 下面，请直接把 *tmitter.db* 删除掉。
@@ -21,5 +21,5 @@
     MySQL 安装说明
       * 下载安装 MySQL,并创建 tmitter 数据库，并修改 settings.py 把 DATABASE_ENGINE 的值改为 'mysql' 其它后面的 DATABASE相关的设置与 PostgreSQL的设置基本类似
       * 安装 [http://sourceforge.net/projects/mysql-python mysql-python]			
-  # 打开命令窗口，并进入tmitter源代码目录，执行 {{{manage.py syncdb}}} 命令，根据提示完成操作。这样 Django 为自动为我们创建相关的表。
-  # 运行 {{{manage.py runserver}}} 将会开始运行web服务器，最后打开提示出来的地址，如：http://127.0.0.1:8000/
+  * 打开命令窗口，并进入tmitter源代码目录，执行 {{{manage.py syncdb}}} 命令，根据提示完成操作。这样 Django 为自动为我们创建相关的表。
+  * 运行 {{{manage.py runserver}}} 将会开始运行web服务器，最后打开提示出来的地址，如：http://127.0.0.1:8000/
