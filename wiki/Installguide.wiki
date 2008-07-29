@@ -8,7 +8,8 @@
 		
 	2.2) PostgerSQL 安装说明	
 		2.2.1) 如果你使用 PostgreSQL 的话，请先安装 PostgreSQL 并创建数据库 tmitter 
-		2.2.2) 修改 settings.py 的数据库配置部分的用户名密码,请将下面一段替换相应的地方		
+		2.2.2) 修改 settings.py 的数据库配置部分的用户名密码,请将下面一段替换相应的地方	
+	{{{
 			DATABASE_ENGINE = 'postgresql3'
 
 			DATABASE_NAME = 'tmitter'
@@ -20,6 +21,7 @@
 			DATABASE_HOST = '127.0.0.1' # 请将 127.0.0.1 改为你的PostgreSQL的服务器地址
 
 			DATABASE_PORT = '' # 这里是 PostgreSQL的端口号，如果是默认的这里就留空
+}}}
 		2.2.3) 安装 [http://initd.org/tracker/psycopg psycopg]
 		
 	2.3) MySQL 安装说明
