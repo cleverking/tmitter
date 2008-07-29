@@ -1,12 +1,12 @@
 #labels Phase-Support
-1) 安装 Django<http://www.djangoproject.com/documentation/install/>
+1) 安装 [http://www.djangoproject.com/documentation/install Django>
 
 
 
 2) 选择数据库，Sqlite3 或 PostgreSQL 或 MySQL
 
 	2.1) Sqlite 安装说明
-		2.1.1) 安装 pysqlite<http://initd.org/tracker/pysqlite>	
+		2.1.1) 安装 [http://initd.org/tracker/pysqlite pysqlite]
 		2.1.2) 我们的源代码里面默认就带有Sqlite的数据库文件，在 tmitter/db 下面，请直接把 tmitterd.db 删除掉。
 		
 		
@@ -24,11 +24,11 @@
 			DATABASE_HOST = '127.0.0.1' # 请将 127.0.0.1 改为你的PostgreSQL的服务器地址
 
 			DATABASE_PORT = '' # 这里是 PostgreSQL的端口号，如果是默认的这里就留空
-		2.2.3) 安装 psycopg<http://initd.org/tracker/psycopg>
+		2.2.3) 安装 [http://initd.org/tracker/psycopg psycopg]
 		
 	2.3) MySQL 安装说明
 		2.2.1) 下载安装 MySQL,并创建 tmitter 数据库，并修改 settings.py 把 DATABASE_ENGINE 的值改为 'mysql' 其它后面的 DATABASE相关的设置与 PostgreSQL的设置基本类似
-		2.2.2) 安装 mysql-python<http://sourceforge.net/projects/mysql-python> 
+		2.2.2) 安装 [http://sourceforge.net/projects/mysql-python mysql-python]
 		
 			
 
