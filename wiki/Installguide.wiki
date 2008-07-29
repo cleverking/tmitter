@@ -1,5 +1,5 @@
 #labels Phase-Support
-1) 安装 [http://www.djangoproject.com/documentation/install Django>
+1) 安装 [http://www.djangoproject.com/documentation/install Django]
 
 
 
@@ -7,7 +7,7 @@
 
 	2.1) Sqlite 安装说明
 		2.1.1) 安装 [http://initd.org/tracker/pysqlite pysqlite]
-		2.1.2) 我们的源代码里面默认就带有Sqlite的数据库文件，在 tmitter/db 下面，请直接把 tmitterd.db 删除掉。
+		2.1.2) 我们的源代码里面默认就带有Sqlite的数据库文件，在 *tmitter/db* 下面，请直接把 *tmitter.db* 删除掉。
 		
 		
 	2.2) PostgerSQL 安装说明	
