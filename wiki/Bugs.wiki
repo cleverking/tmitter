@@ -1,0 +1,3 @@
+#labels Phase-QA
+  # 注册成功邮件提醒HTML直接显示出来了
+  
