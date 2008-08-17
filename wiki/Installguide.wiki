@@ -1,5 +1,5 @@
 #labels Phase-Implementation,Phase-Deploy
-  * 安装 [http://www.djangoproject.com/documentation/install Django]
+  * 安装 [http://www.djangoproject.com/documentation/install Django 1.0 beta1]
   * 选择数据库，Sqlite3 或 PostgreSQL 或 MySQL
   Sqlite 安装说明
       * 安装 [http://initd.org/tracker/pysqlite pysqlite]
