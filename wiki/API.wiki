@@ -1,14 +1,14 @@
-#summary One-sentence summary of this page.
+#summary Tmitter的外部调用API
 #labels Phase-Implementation
 
-= Introduction =
+= 发布消息 =
 
-Add your content here.
-
-
-= Details =
-
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+发布消息是通过 URL GET 的方式来调用的
+地址：http://www.tmitter.com/api/note/add/
+参数：
+  * *uname* 用户名
+  * *pwd* 密码^未加密^的
+  * *msg* 要发布的消息内容
+  * *from* _可以为空_  调用者名称，如：“饭否”，哪么消息里面将显示“通过饭否”
+例如：
+  http://www.twitter.com/api/note/add/?uname=user1&pwd=123123&msg=这里是要发布的消息&from=Twitter
