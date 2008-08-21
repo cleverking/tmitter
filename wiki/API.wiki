@@ -9,6 +9,6 @@
   * *uname* 用户名
   * *pwd* 密码^未加密^的
   * *msg* 要发布的消息内容
-  * *from* _可以为空_  调用者名称，如：“饭否”，哪么消息里面将显示“通过饭否”
+  * *from* _可以为空_  调用者名称，如：“饭否”，哪么消息里面将显示“通过饭否”，这里最多支持20个字符
 例如：
   http://www.twitter.com/api/note/add/?uname=user1&pwd=123123&msg=这里是要发布的消息&from=Twitter
