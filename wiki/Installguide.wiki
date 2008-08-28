@@ -1,5 +1,5 @@
 #labels Phase-Implementation,Phase-Deploy
-  * 安装 [http://www.djangoproject.com/documentation/install Django 1.0 beta1]
+  * 安装 [http://www.djangoproject.com/download/1.0-beta-1/tarball/ Django 1.0 beta1]，如果你不想安装这个版本，请将这个版本的Django目录放到 Tmiiter 的目录下面
   * 选择数据库，Sqlite3 或 PostgreSQL 或 MySQL
   Sqlite 安装说明
       * 安装 [http://initd.org/tracker/pysqlite pysqlite]
